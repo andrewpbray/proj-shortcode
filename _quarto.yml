@@ -10,8 +10,9 @@ website:
       - about.qmd
       - section: Pages
         contents:
-          - page 1
+          - about.qmd
           - "{{< meta foo >}}"
+          - "{{< meta bar >}}"
 
 metadata-files: 
   - contents.yml
