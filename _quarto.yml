@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  title: "Proj-shortcode"
+  sidebar:
+    contents:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - section: Pages
+        contents:
+          - page 1
+          - "{{< meta foo >}}"
+
+metadata-files: 
+  - contents.yml
